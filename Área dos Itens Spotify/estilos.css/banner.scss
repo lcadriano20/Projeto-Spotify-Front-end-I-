@@ -1,0 +1,23 @@
+.section-banner {
+    position: relative;
+    background-image: url(https://wallpaperaccess.com/full/667769.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+    button {
+        position: absolute;
+        border-radius: 10px;
+        background-color: #2941AB;
+        color: white;
+        height: 45px;
+        border: none;
+        width: 200px;
+        top: 75%;
+        left: 47%;
+        right: 4%;
+        cursor: pointer;
+    }
+}

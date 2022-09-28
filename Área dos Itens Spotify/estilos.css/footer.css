@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #191414;
+  height: 250px;
+  color: white;
+}
+footer .section-alunos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer .section-alunos p:hover {
+  color: #1ED860;
+}
+footer .section-alunos h2:hover {
+  color: #1ED860;
+}
+footer .logos-linkedin-github {
+  display: flex;
+  gap: 15px;
+}
+footer .div-p-final {
+  display: flex;
+  justify-content: center;
+}
+footer .div-p-final > p:hover {
+  color: #1ED860;
+}/*# sourceMappingURL=footer.css.map */

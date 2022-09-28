@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #191414;
+    height: 250px;
+    color: white;
+
+    .section-alunos {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+       p:hover {
+            color: #1ED860;
+        }
+        h2:hover {
+            color: #1ED860;
+        }
+    }
+    
+    
+
+    .logos-linkedin-github {
+        display: flex;
+        gap: 15px;
+    }
+    .div-p-final {
+        display: flex;
+        justify-content: center;
+    }
+    .div-p-final>p:hover {
+        color: #1ED860;
+    }
+
+    }
+   
+    

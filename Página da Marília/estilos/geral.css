@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.imagem-estrela {
+    height: 40px;
+}
+.data-nascimento-marilia {
+    color: white;
+}
+.h1-joker {
+    font-size: 2rem;
+}
+.p-diretor {
+    font-weight: bolder;
+}
+.p-escritores {
+    font-weight: bolder;
+}
+span {
+    color: #2EBD59;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #191414;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+header span {
+  display: none;
+}
+header nav {
+  width: 30%;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header .logo-spotify {
+  height: 70px;
+  padding-left: 20px;
+}
+header a:hover {
+  color: #1ED760;
+  text-decoration: underline;
+}/*# sourceMappingURL=header.css.map */

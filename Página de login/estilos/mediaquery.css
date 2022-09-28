@@ -1,0 +1,54 @@
+@media (max-width:440px) {
+    header {
+        width: 100%;
+    }
+    .logo-spotify {
+        height: 40px;
+    }
+    #span-menu {
+        color: white;
+        height: 70px;
+        display: block;
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    nav {
+        height: 100%;
+    }
+    ul {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        height: 590px;
+    }
+
+    .area-do-login {
+        height: 25rem;
+        width: 20rem;
+    }
+    .img-x-logo {
+        height: 1rem;
+    }
+    .logo-spotify-login {
+        height: 3rem;
+    }
+    .div-do-email>input {
+        width: 15rem;
+    }
+    .div-do-password>input {
+        width: 15rem;
+    }
+    .div-do-button>input {
+        width: 15rem;
+    }
+
+
+
+
+
+}

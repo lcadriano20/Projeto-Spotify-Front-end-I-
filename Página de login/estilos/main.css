@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 690px;
+    width: 100%;
+}
+.area-do-login {
+    
+    border-radius: 5px;
+    height: 460px;
+    width: 450px;
+    background-color: white;
+}
+.area-dos-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55%;
+}
+
+.div-x-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+.img-x-logo {
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 15px;
+}
+.logo-spotify-login {
+    display: block;
+    margin: auto;
+    height: 80px;
+    padding-top: 40px;
+    
+}
+
+.div-do-email {
+    display: flex;
+    justify-content: center;
+}
+.div-do-password {
+    display: flex;
+    justify-content: center;
+}
+.div-do-button {
+    display: flex;
+    justify-content: center;
+}
+input[type="email"] {
+    width: 400px;
+    height: 20px;
+}
+input[type="password"] {
+    width: 400px;
+    height: 20px;
+}
+input[type="button"] {
+    width: 400px;
+    height: 30px;
+    background-color: #1ED760;
+    color: white;
+    border: none;
+}
+input[type="email"]::placeholder {
+    text-align: center;
+}
+input[type="password"] {
+    text-align: center;
+}
+
+
+

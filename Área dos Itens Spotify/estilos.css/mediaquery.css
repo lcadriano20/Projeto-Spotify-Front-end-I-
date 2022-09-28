@@ -1,0 +1,54 @@
+@media (max-width:440px) {
+
+
+    header>.logo-spotify {
+        height: 40px;
+    }
+    nav {
+        display: none;
+    }
+    span {
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+    }
+    .section-banner {
+        display: none;
+    }
+    main {
+       height: 100%;
+    }
+    .album1,.album2,.album3,.album4,.album5,.album6 {
+        width: 90%;
+        padding-top: 40px;
+    }
+    #primeira-section-albums{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    #segunda-sections-albums {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+   
+    
+    footer {
+        height: 100%;
+    }
+
+    .section-alunos {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8rem;
+    }
+    .div-p-final>p {
+        font-size: 0.8rem;
+    }
+    
+
+    
+    
+}

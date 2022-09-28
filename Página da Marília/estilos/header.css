@@ -1,0 +1,35 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color:black;
+}
+#span-menu {
+    visibility: hidden;
+}
+.logo-digital {
+    padding-left: 10px;
+}
+nav {
+    width: 20%;
+}
+.logo-spotify {
+    padding-left: 15px;
+    cursor: pointer;
+    height: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav>ul>li>a:hover {
+    text-decoration: underline;
+}

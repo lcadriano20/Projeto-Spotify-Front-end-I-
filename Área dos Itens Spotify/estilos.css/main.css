@@ -12,6 +12,21 @@ main .section-cards-main {
   justify-content: space-around;
   align-items: center;
 }
+main .section-cards-main button {
+  display: block;
+  margin: auto;
+  height: 2rem;
+  background-color: #2EBD59;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+main .section-cards-main button:hover {
+  transform: scale(1.2);
+}
+main .section-cards-main button a {
+  text-decoration: none;
+  color: white;
+}
 main .section-cards-main h2 {
   font-family: "Lato", sans-serif;
   color: white;

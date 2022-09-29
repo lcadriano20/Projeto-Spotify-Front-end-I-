@@ -6,6 +6,7 @@ main {
     height: 800px;
     width: 100%;
 
+
     .section-cards-main {
     background-color: black;
     flex-direction: column;
@@ -14,11 +15,29 @@ main {
     justify-content: space-around;
     align-items: center;
 
+    button {
+        display: block;
+        margin: auto;
+        height: 2rem;
+        background-color: #2EBD59;
+        margin-bottom: 10px;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
     h2 {
         font-family: 'Lato', sans-serif;
         color: white;
     }
-
+   
     iframe {
         height: 300px;
     }
@@ -34,6 +53,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
+
    }
 }
    

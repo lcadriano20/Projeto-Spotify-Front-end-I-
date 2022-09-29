@@ -10,14 +10,21 @@
     button {
         position: absolute;
         border-radius: 10px;
-        background-color: #2941AB;
+        background-color: black;
         color: white;
         height: 45px;
         border: none;
-        width: 200px;
+        width: 300px;
         top: 75%;
-        left: 47%;
+        left: 45%;
         right: 4%;
         cursor: pointer;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
     }
+
+    
 }

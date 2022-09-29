@@ -7,7 +7,9 @@ $cor3: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
 }

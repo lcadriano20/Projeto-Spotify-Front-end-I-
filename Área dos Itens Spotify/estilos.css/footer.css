@@ -9,6 +9,8 @@ footer {
 footer .section-alunos {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
   width: 100%;
 }
 footer .section-alunos p:hover {

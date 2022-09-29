@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: #2EBD59;
+}
+
+.section-informacoes-marilia {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.div-do-h1-descricao-marilia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    gap: 15px;
+}
+.div-do-h1-estrela {
+    width: 100%;
+}
+
+.div-diretor-escritores {
+    justify-content: flex-start;
+    gap: 15px;
+    display: flex;
+    margin-top: 30px;
+    width: 50%;
+}
+.div-do-trailer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 50%;
+}

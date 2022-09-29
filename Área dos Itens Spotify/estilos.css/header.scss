@@ -13,6 +13,9 @@ html {
 * {
     margin: 0;
 }
+#span-menu {
+    opacity: 0%;
+}
 
 header {
     display: flex;
@@ -20,10 +23,6 @@ header {
     height: 100px;
     align-items: center;
     justify-content: space-between;
-
-    span {
-        display: none;
-    }
 
     nav {
         width: 30%;

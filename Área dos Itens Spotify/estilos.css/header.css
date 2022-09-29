@@ -6,15 +6,16 @@ html {
   margin: 0;
 }
 
+#span-menu {
+  opacity: 0%;
+}
+
 header {
   display: flex;
   background-color: #191414;
   height: 100px;
   align-items: center;
   justify-content: space-between;
-}
-header span {
-  display: none;
 }
 header nav {
   width: 30%;

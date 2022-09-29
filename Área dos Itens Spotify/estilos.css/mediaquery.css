@@ -7,10 +7,11 @@
     nav {
         display: none;
     }
-    span {
+    #span-menu {
         display: flex;
         color: white;
         padding-right: 30px;
+        opacity: 100%;
     }
     .section-banner {
         display: none;
